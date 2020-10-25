@@ -32,14 +32,15 @@
     background-color: #000;
 }
 
-.col-md > a {
+.col-md-3 > a {
     display: flex;
     justify-content: center;
 }
 
-.col > a {
+.col-sm-3 > a {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 i {
@@ -49,7 +50,7 @@ i {
 i:hover {
     color: #2875f9;
     transform: scale(1.2);
-    transition-duration: 0.4s;
+    transition-duration: 0.2s;
     transition-timing-function: ease-in;
 }
 
