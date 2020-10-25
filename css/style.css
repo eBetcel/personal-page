@@ -1,0 +1,62 @@
+* {
+    font-family: 'Syne Mono', monospace;
+}
+
+.btn-primary {
+    background-color:#093896;
+}
+
+.photo {
+    height: 100%;
+    width: auto;
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 2em;
+}
+
+.jumbotron {
+    background-color: #fff;
+    margin: 0 5% 0 5%;
+}
+
+.container > h1 {
+    margin-bottom: 0.5em;
+    
+}
+
+.container > h5 {
+    margin-bottom: 1em;
+}
+
+.container-fluid {
+    background-color: #000;
+}
+
+.col-md > a {
+    display: flex;
+    justify-content: center;
+}
+
+.col > a {
+    display: flex;
+    justify-content: center;
+}
+
+i {
+    color: #3986fa;
+}
+
+i:hover {
+    color: #2875f9;
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+
+.row {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
